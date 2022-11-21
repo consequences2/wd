@@ -116,6 +116,7 @@ https://api.xxxxx.com/lpay/agentpay/gateway
 |sub_branch |收款方IFSC| String |收款方IFSC，印度银行卡代付必须填正确的(IFSC)| 是 
 |account_holder_id| 收款方邮箱| String |收款方邮箱| 是 
 |sign |签名 |String(32)| 对支付信息使用MD5签名。| 是
+|notify_url |回调地址 |String(200)| 订单异步通知地址| 否
 
 
 ## 2. 接入步骤
